@@ -21,4 +21,13 @@ $(function() {
 	}
 	
 	$bloons.each(animationLoop);
+
+
+	function randomShaun()
+	{
+	  var seans = ['Sean', 'Shawn', 'Shaun', 'Shone', 'Chone'];
+	  return seans[Math.floor(Math.random() * seans.length)];
+	}
+
+	$('h1').html('Happy Birthday ' + randomShaun());
 });
