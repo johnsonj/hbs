@@ -25,7 +25,7 @@ $(function() {
 
 	function randomShaun()
 	{
-	  var seans = ['Sean', 'Shawn', 'Shaun', 'Shone', 'Chone'];
+	  var seans = ['Drew'];
 	  return seans[Math.floor(Math.random() * seans.length)];
 	}
 
